@@ -127,3 +127,50 @@ img {
 /************************************************
     SOLUZIONE RESPONSIVE
  ************************************************/
+/* Aggiungere codice da qui */
+
+.container{
+  width: 100%;
+  max-width: 1200px;
+}
+
+
+/* - tablet: dai 768px in giù */
+/* @media screen and (max-width: 768px){
+  
+
+  header h1{
+    color: red;
+  }
+}  */
+
+@media screen and (max-width: 480px){
+  
+  /* .lessons{
+    background-color: #232946;
+  } */
+
+  .steps{
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+  .row{
+    
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .row .col{
+    width: 100%;
+    padding-bottom: 50px;
+  }
+
+  /* header h1{
+    color: rebeccapurple;
+  } */
+  .why-us{
+    background-color: black;
+    padding-top: 3rem;
+    margin-bottom: 0;
+  }
+} 
